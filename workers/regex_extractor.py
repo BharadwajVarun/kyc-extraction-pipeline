@@ -1,3 +1,4 @@
+from workers.validators import validate_extraction
 import re
 import spacy
 
@@ -133,6 +134,8 @@ def extract_fields(raw_text):
         round(sum(found) / len(found), 2) if found else 0.0
     )
 
+    result["validation"] = validate_extraction(result["fields"])
+    
     return result
 
 
