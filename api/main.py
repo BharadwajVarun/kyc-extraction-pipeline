@@ -1,9 +1,6 @@
 import uuid
-import shutil
-import os
 from pathlib import Path
 from fastapi import FastAPI, UploadFile, File, HTTPException
-from fastapi.staticfiles import StaticFiles
 from api.schemas import UploadResponse, ExtractionResult, JobStatus
 from workers.ocr_engine import extract_text
 from workers.regex_extractor import extract_fields

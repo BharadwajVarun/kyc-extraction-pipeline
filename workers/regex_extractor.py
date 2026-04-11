@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from workers.validators import validate_extraction
 import re
 import spacy

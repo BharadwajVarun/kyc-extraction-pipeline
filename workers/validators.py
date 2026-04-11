@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from datetime import datetime, date
 
 
