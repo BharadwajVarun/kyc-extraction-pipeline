@@ -218,7 +218,7 @@ if __name__ == "__main__":
 
     print("\n─── PAN Validation ───\n")
     result4 = validate_pan("ABCDE1234F")
-=======
+
 from datetime import datetime, date
 
 
@@ -439,5 +439,5 @@ if __name__ == "__main__":
 
     print("\n─── PAN Validation ───\n")
     result4 = validate_pan("ABCDE1234F")
->>>>>>> f530946c4cd212f289bf5f1a8ec9a691424f0225
+
     print(json.dumps(result4, indent=2))

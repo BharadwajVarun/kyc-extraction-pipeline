@@ -157,7 +157,7 @@ if __name__ == "__main__":
     output = extract_fields(raw_text)
 
     print(json.dumps(output, indent=2, ensure_ascii=False))
-=======
+    
 from workers.validators import validate_extraction
 import re
 import spacy
@@ -317,4 +317,4 @@ if __name__ == "__main__":
     output = extract_fields(raw_text)
 
     print(json.dumps(output, indent=2, ensure_ascii=False))
->>>>>>> f530946c4cd212f289bf5f1a8ec9a691424f0225
+

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import cv2
 import numpy as np
 
@@ -67,9 +66,7 @@ if __name__ == "__main__":
     output_path = sys.argv[2]
     result = preprocess(input_path)
     save_image(result, output_path)
-=======
-import cv2
-import numpy as np
+
 
 
 def load_image(image_path):
@@ -136,5 +133,4 @@ if __name__ == "__main__":
     output_path = sys.argv[2]
     result = preprocess(input_path)
     save_image(result, output_path)
->>>>>>> f530946c4cd212f289bf5f1a8ec9a691424f0225
     print("Preprocessing complete.")
