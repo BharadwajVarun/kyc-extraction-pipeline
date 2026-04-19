@@ -2,9 +2,9 @@ import pytesseract
 import cv2
 from workers.preprocessor import preprocess
 
-pytesseract.pytesseract.tesseract_cmd = (
-    r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-)
+import os
+if os.name == 'nt':  # Windows only
+    pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 def extract_text(image_path, lang="eng+hin"):
     preprocessed = preprocess(image_path)
