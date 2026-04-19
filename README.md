@@ -131,7 +131,7 @@ Grafana login: `admin` / `admin`
   "status": "completed",
   "document_type": "aadhaar",
   "fields": {
-    "aadhaar_uid": { "value": "2167 6218 9564" },
+    "aadhaar_uid": { "value": "**** **** ****" },
     "name": { "value": "Varun Bharadwaj" },
     "date_of_birth": { "value": "01/01/1999" },
     "gender": { "value": "Male" }
